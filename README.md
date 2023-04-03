@@ -28,7 +28,7 @@ Users should be able to:
 ### Screenshot
 
 ![Desktop Layout](/images/Screenshot_desktop.png)
-![Mobile Layout](/images/Screenshot_mobile.png.png)
+![Mobile Layout](/images/Screenshot_mobile.png)
 
 
 ### Links
