@@ -1,0 +1,123 @@
+body{
+    display: flex;
+    max-width: 1440px;
+    max-height: 800px;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(30, 38%, 92%); 
+    margin: auto;
+}   
+
+main{
+    max-width: 50vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.product-data{
+    max-width: 40vw;
+    max-height: 60vh;
+    margin: auto;
+    display: flex;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 100%);
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.img-product{
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    min-width: 50%;
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    object-fit: cover;
+    background-image: url('/images/image-product-desktop.jpg');
+}
+
+.product-preview{
+    min-width: 50%;
+    margin: 0 30px 0 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.product-preview h3{
+    margin: 30px 0 0 0;
+    letter-spacing: 10px;
+    font-size: 16px;
+    min-width: 50%;
+    color: hsl(228, 12%, 48%);
+    font-weight: 200;
+}
+
+.product-preview h2{
+    font-family: 'Fraunces', sans-serif;
+    font-size: 45px;
+    width: 90%;
+    margin: 30px 0 20px 0;
+}
+
+.product-preview p{
+    font-size: 15px;
+    width: 80%;
+    text-align: left;
+    line-height: 30px;
+    margin: 0;
+    color:hsl(228, 12%, 48%)
+}
+
+.price-section{
+    margin-bottom: 0;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.price-section h4{
+    font-family: 'Fraunces', sans-serif;
+    font-size: 36px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    color: hsl(158, 36%, 37%)
+}
+
+.price-section p{
+    font-size: 14px;
+    text-decoration: line-through;
+    margin: 0;
+}
+
+
+.btn-cart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0 20px 0;
+    width: 85%;
+    height: 6vh;
+    border: none;
+    border-radius: 10px;
+    background-color: hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.btn-cart .cart-icon{
+    width: 15px;
+    margin: 5px;
+}
+
+.btn-cart:hover{
+    background-color: hsl(158, 23%, 23%);
+}
+
+.attribution{
+    margin: 0 auto auto auto;
+}
